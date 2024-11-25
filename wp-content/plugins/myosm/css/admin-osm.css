@@ -1,0 +1,84 @@
+#menumap {
+	width: 1400px;
+	height: 45px;
+	overflow: hidden;
+	margin: 0px 0 0 3px
+}
+#menumap ul li {
+	background: none repeat scroll 0 0 #000;
+	border: 1px solid #999;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 1ps solid #FFF;
+	float: left;
+	padding: 10px;
+	line-height: 10px;
+}
+#menumap ul li a {
+	color: white;
+	text-decoration: none;
+}
+#menumap ul li a:hover {
+	color: #ccc;
+}
+
+#menumap ul li#active {
+	background: #0073aa none repeat scroll 0 0;
+	color: white;
+	font-weight: bold;
+}
+
+#menumap ul li#active a,
+#menumap ul li#active a:hover {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: default;
+}
+
+#contentmap {
+	background: white url("../img/osm_official_logo.png") no-repeat scroll 50% center;
+	border: 1px solid #999;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 94%;
+	overflow: hidden;
+}
+
+#contentmap2 {
+	background: white none repeat scroll 0 0;
+	border: 1px solid #999;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 94%;
+	overflow: hidden;
+}
+
+#contentmap .title {
+	color: #0073aa;
+}
+
+.left {
+	float: left;
+    width: 20%;
+	margin: 10px;
+}
+
+/* Les cartes doivent avoir une hauteur minimum de 400px pour être affichées */
+.map-display 
+{
+	border: 2px solid #0073aa; /* bleu */
+	height: 400px;
+	width: 600px;
+}
+
+.msg-ok {
+	color: green;
+	margin: 10px 10px 10px 0;
+	width: 30%;
+}
+
+.msg-ko {
+	color: red;
+	margin: 10px 10px 10px 0;
+	width: 30%;
+}

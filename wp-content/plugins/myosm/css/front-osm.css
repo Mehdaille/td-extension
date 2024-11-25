@@ -1,0 +1,11 @@
+/* ---------------------------------------------------------
+* front-osm.js
+* ----------------------------------------------------------
+*/
+
+/* Les cartes doivent avoir une hauteur minimum de 400px pour être affichées */
+.map-display 
+{
+	height: 400px;
+	width: 600px;
+}
